@@ -21,6 +21,7 @@ function removeDescriptors(albumName) {
     const normalizedName = albumName.slice(0, lastBracket - 1);
     return normalizedName;
   }
+
   return albumName;
 }
 
