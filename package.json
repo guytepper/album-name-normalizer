@@ -1,0 +1,11 @@
+{
+  "name": "album-name-normalizer",
+  "version": "1.0.0",
+  "description": "Remove descriptors from album names.",
+  "main": "index.js",
+  "author": "Guy Tepper",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
