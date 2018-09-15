@@ -1,6 +1,7 @@
 # Album Name Normalizer
 
 [![Build Status](https://travis-ci.org/guytepper/album-name-normalizer.svg?branch=master)](https://travis-ci.org/guytepper/album-name-normalizer)
+[![Coverage Status](https://coveralls.io/repos/github/guytepper/album-name-normalizer/badge.svg?branch=master)](https://coveralls.io/github/guytepper/album-name-normalizer?branch=master)
 
 > Remove descriptors from album names.
 
