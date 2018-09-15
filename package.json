@@ -4,6 +4,7 @@
   "description": "Remove descriptors from album names.",
   "main": "index.js",
   "author": "Guy Tepper",
+  "repository": "github:guytepper/album-name-normalizer",
   "license": "MIT",
   "devDependencies": {
     "coveralls": "^3.0.2",
