@@ -15,6 +15,10 @@ function removeDescriptors(albumName) {
     descriptorIndex = albumName.indexOf('Explicit Version');
   }
 
+  if (descriptorIndex < 0) {
+    descriptorIndex = albumName.indexOf('Original Motion Picture Soundtrack');
+  }
+
   // Descriptors are usually wrapped inside brackets, so we'll remove anything inside those brackets.
   if (descriptorIndex > 0) {
     const lastBracket = albumName.lastIndexOf('(');
