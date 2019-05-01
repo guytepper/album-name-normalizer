@@ -8,7 +8,7 @@ function removeDescriptors(albumName) {
   descriptorIndex = albumName.indexOf('Remaster');
 
   if (descriptorIndex < 0) {
-    descriptorIndex = albumName.indexOf('Deluxe Edition');
+    descriptorIndex = albumName.indexOf('Deluxe');
   }
 
   if (descriptorIndex < 0) {
